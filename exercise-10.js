@@ -1,14 +1,17 @@
 function checkAB(num) {
-    var a;
-    var b;
-    
+    var posisia = 0;
+    var posisib = 0;
     for(var i = 0; i < num.length; i++){
         if(num[i] === 'a'){
-          a = i
-        } else if (num[i] === 'b'){
-            b = i   
+            posisia=i
+        } else if(num[i] === 'b'){
+            posisib=i
         }
-    } return b - a === 4 || a - b === 4
+        if(Math.abs(posisia-posisib) === 4){
+            return true
+        }
+    }
+    return false
   }
   
   // TEST CASES
@@ -17,3 +20,6 @@ function checkAB(num) {
   console.log(checkAB('you are boring')); // true
   console.log(checkAB('barbarian')); // true
   console.log(checkAB('bacon and meat')); // false
+  console.log(checkAB('bacon and bmeat')); // true
+  
+  
