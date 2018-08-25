@@ -1,6 +1,6 @@
 function ubahHuruf(kata) {
     // you can only write your code here!
-    var alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    var alphabet = 'abcdefghijklmnopqrstuvwxyza';
     var letterIndex = 0;
     var nextLetter = '';
     
@@ -12,8 +12,8 @@ function ubahHuruf(kata) {
   }
   
   // TEST CASES
-  console.log(ubahHuruf('wow')); // xpx
-  console.log(ubahHuruf('developer')); // efwfmpqfs
-  console.log(ubahHuruf('javascript')); // kbwbtdsjqu
-  console.log(ubahHuruf('keren')); // lfsfo
-  console.log(ubahHuruf('semangat')); // tfnbohbu
+  console.log(ubahHuruf('wowz')); // xpx
+  console.log(ubahHuruf('developerz')); // efwfmpqfs
+  console.log(ubahHuruf('javascriptz')); // kbwbtdsjqu
+  console.log(ubahHuruf('kerenz')); // lfsfo
+  console.log(ubahHuruf('semangatz')); // tfnbohbu
