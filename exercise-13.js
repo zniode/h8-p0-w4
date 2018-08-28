@@ -6,6 +6,10 @@ function countProfit(shoppers) {
     
     var newArray = [];  
     
+    if (shoppers.length === 0) {
+        return shoppers;
+      }
+    
   
     var shoesStock = itemList[0][2];
     var shirtStock = itemList[1][2];
